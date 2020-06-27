@@ -24,7 +24,6 @@ class Derived : public Base
 int main()
 {
 	Derived d1;
-	
 	d1.set_base(3);
 	d1.set_derived(5);
 	d1.info_base();
